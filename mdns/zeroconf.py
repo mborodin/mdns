@@ -1586,7 +1586,7 @@ class Zeroconf(object):
             return info
         return None
 
-    def add_serviceListener(self, type, listener):
+    def add_service_listener(self, type, listener):
         """Adds a listener for a particular service type.  This object
         will then have its update_record method called when information
         arrives for that type."""
